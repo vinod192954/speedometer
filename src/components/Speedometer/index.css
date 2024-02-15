@@ -1,0 +1,42 @@
+/* Write your CSS here */
+* {
+  margin: 0px;
+}
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-heading {
+  color: #ffffff;
+  font-family: Roboto;
+}
+.description {
+  color: #cbd5e1;
+  font-family: Roboto;
+}
+.Increase-button {
+  background-color: #0b69ff;
+  border-width: 0px;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 2px;
+}
+.decrease-button {
+  background-color: #07080c;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.img-custom {
+  height: 320px;
+}
